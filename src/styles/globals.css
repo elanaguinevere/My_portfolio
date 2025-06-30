@@ -82,3 +82,24 @@ header{
     width:100vw ;
     z-index: +10;
 }
+.menu-item{
+    font-size: var(--p);
+    color: var(--dark-green);
+    margin: 1rem;
+}
+.menu-item:hover, .logo-title:hover{
+    color: var(--gold);
+    text-decoration: none;
+}
+nav{
+    display: list-item;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo{
+    margin:2rem;
+    display: flex;
+    align-items: center;
+}
