@@ -103,6 +103,17 @@ nav{
     display: flex;
     align-items: center;
 }
+main{
+    background-position: absolute;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position-y: 1800px;
+}
+.intro-duction{
+    display: flex;
+    margin-top: -4rem;
+    justify-content: space-evenly;
+}
 .intro{
     color: var(--light-gold);
     background-color: var(--dark-green);
