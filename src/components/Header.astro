@@ -1,30 +1,21 @@
 ---
 import Logo from '../components/Logo.astro';
-
-const navItems = [
-    { linkText: 'Home', href: '/' },
-    { linkText: 'contact', href: '/contact' },
-    { linkText: 'Image CDN', href: '/image-cdn' },
-    { linkText: 'Edge Function', href: '/edge' },
-    { linkText: 'Blobs', href: '/blobs' }
-];
+const { headerClass } = Astro.props;
+import BurgerMenu from '../assets/burgermenu.png';
 ---
 
-<nav class="flex flex-wrap items-center gap-4 pt-6 pb-16 sm:pt-12 sm:pb-24">
-    <a href="/">
-        <Logo />
-    </a>
-    {
-        !!navItems?.length && (
-            <ul class="flex flex-wrap gap-x-4 gap-y-1">
-                {navItems.map((item) => (
-                    <li>
-                        <a href={item.href} class="inline-block px-1.5 py-1 sm:px-3 sm:py-2">
-                            {item.linkText}
-                        </a>
-                    </li>
-                ))}
-            </ul>
-        )
-    }
-</nav>
+<header>
+    <div class="logo">
+      <h1>
+        <a href="/" class={`logo-title ${headerClass === 'default-header' ? 'active' : ''}`}>My Portfolio</a>
+      </h1>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="/my-portfolio/contact" class={`menu-item ${headerClass === 'contact-header' ? 'active' : ''}`}>Contact me</a>
+        </li>
+      </ul>
+      <img src={BurgerMenu.src} alt="Menu" class="burger" />
+    </nav>
+  </header>
