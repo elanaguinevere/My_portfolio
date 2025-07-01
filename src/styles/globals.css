@@ -1,5 +1,14 @@
 @import 'tailwindcss';
 
+@font-face {
+    font-family: Sungold;
+    src:url('../assets/Sungold/Sungold.ttf') format('truetype');
+}
+@font-face{
+    font-family: Oswald;
+    src:url('../assets/Oswald/Oswald.ttf') format('truetype');
+}
+
 :root{
     --dark-green: #0E2621;
     --light-green:#4A6043;
@@ -21,6 +30,9 @@
     --p4:16px;
     --p5:11px;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     color: purple;
     background-color:var(--beige);
@@ -28,6 +40,7 @@ body{
     margin: 0rem;
     font-family: Sungold;
     font-size: var(--p);
+    min-width:100vw
 }
 .logo-title{
     display: flex;
