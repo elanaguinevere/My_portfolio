@@ -395,3 +395,94 @@ ul{
     }
 
 }
+@media screen and (max-width: 800px){
+main{
+    background-position-y: 1530px;
+}
+.intro-duction{
+    margin-top: -4rem;
+}
+}
+@media screen and (max-width: 700px){
+body{
+    font-size: var(--p4);
+}
+.logo-title{
+    font-size: var(--p1);
+}
+.menu-item{
+    font-size: var(--p3);
+}
+
+main{
+    background-position-y: 1340px;
+
+}
+.intro-duction{
+    margin-top: -3rem;
+}
+.aboutme{
+    margin: 1.5rem;
+}
+strong{
+    font-size: var(--p3);
+    
+}
+.title{
+    font-size: var(--h3);
+}
+.styles{
+    margin: 1.5rem;
+    font-size: var(--p4);
+}
+.nav-item{
+    color: var(--gold);
+    text-decoration: underline;
+    margin: 2rem;
+    font-size: var(--p4);
+}
+}
+@media screen and (max-width: 500px){
+body{
+    font-size: var(--p5);
+}
+.logo-title{
+    font-size: var(--p3);
+    margin-right: -2rem;
+}
+.menu-item{
+    font-size: var(--p4);
+}
+
+main{
+    background-position-y: 1135px;
+}
+
+.picture{
+    max-height: 300px;
+}
+.intro-duction{
+    margin-top:1rem;
+}
+.aboutme{
+    margin: 1.5rem;
+}
+strong{
+    font-size: var(--p4);
+}
+.title{
+    font-size: var(--h4);
+}
+.styles{
+    margin: 1.5rem;
+    font-size: var(--p5);
+}
+.nav-item{
+    color: var(--gold);
+    text-decoration: underline;
+    margin: 2rem;
+    font-size: var(--p4);
+}
+
+
+}
