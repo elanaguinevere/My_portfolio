@@ -4,7 +4,7 @@ const { headerClass } = Astro.props;
 import BurgerMenu from '../assets/burgermenu.png';
 ---
 
-<header>
+<header class=".header">
     <div class="logo">
       <h1>
         <a href="/" class={`logo-title ${headerClass === 'default-header' ? 'active' : ''}`}>My Portfolio</a>
