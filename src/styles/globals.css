@@ -232,7 +232,7 @@ ul{
     background-image: url('/images/framebtn.png');
     background-repeat: no-repeat;
     background-position: -30rem 0;
-    max-height: 269px;
+    min-height: 269px;
     display: flex;
     align-items: center;
     margin-top: 2rem;
