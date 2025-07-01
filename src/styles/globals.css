@@ -104,7 +104,6 @@ main{
     display: flex;
     justify-content: space-evenly;
 }
-
 .aboutme{
     margin: 2rem;
     display: flex;
@@ -119,4 +118,25 @@ main{
 .picture{
     max-height:700px ;
     margin-top: -5rem;
+}
+
+.introductionTitle{
+    min-width: 30vw;
+    color: var(--beige);
+    margin-top:-4rem ;
+}
+em{
+    font-weight: bold;
+    font-style: normal;
+}
+.sungold{
+    font-family: Sungold;
+    font-weight: 100;
+    color: var(--dark-green);
+}
+strong{
+    font-size: var(--h4);
+    font-family: Oswald;
+    font-weight: 900;
+    color: var(--dark-green);
 }
