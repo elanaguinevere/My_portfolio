@@ -249,10 +249,6 @@ ul{
     text-decoration: none;
 }
 
-
-footer{
-    margin-top: -2.5rem;
-}
 .footer, .artStyles{
     color: var(--beige);
     background-color: var(--light-green);
