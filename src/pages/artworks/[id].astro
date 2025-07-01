@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { artworks } from '../../../db/config';
+import { artworks } from '../../../db/config.ts';
 
 export function getStaticPaths() {
   return artworks.map((art) => ({
