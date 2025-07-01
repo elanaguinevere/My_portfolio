@@ -85,6 +85,7 @@ main{
     background-size: 100% ;
     background-repeat: no-repeat;
     background-position-y: 1800px;
+    padding-bottom:3rem;
 }
 .intro-duction{
     display: flex;
