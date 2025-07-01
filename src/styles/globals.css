@@ -110,12 +110,12 @@ main{
     margin: 2rem;
     display: flex;
     flex-direction: column;
-    font-family: Oswald;
 }
 .introduction{
     color:var(--dark-green);
     max-width: 50vw;
     font-style: normal;
+     font-family: Oswald;
 }
 .picture{
     max-height:700px ;
