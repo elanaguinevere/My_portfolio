@@ -5,9 +5,9 @@ export const artworks = [
       image: '/public/artworks/willow.png',
       date: '2025-04-01',
       hoursWorked: 15,
-      style: 'Oil painting',
-      material: 'Oil on canvas',
-      explanation: 'A moody piece inspired by rainy spring days.'
+      style: 'acrylic',
+      material: 'acrylic on canvas',
+      explanation: 'A moody piece tribute to the death of Technoblade.'
     },
     {
       id: 'anniversary',
