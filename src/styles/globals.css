@@ -39,9 +39,12 @@ body{
     background-color:var(--beige);
     padding: 0rem;
     margin: 0rem;
-    font-family: Oswald;
+    font-family: Sungold;
     font-size: var(--p);
     min-width:100vw
+}
+.menu-item.active, .logo-title.active{
+    color: var(--beige);
 }
 .logo-title{
     display: flex;
