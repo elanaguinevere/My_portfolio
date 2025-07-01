@@ -5,6 +5,11 @@
     src:url('/fonts/Oswald/Oswald.ttf') format('truetype');
 }
 
+@font-face{
+    font-family: Oswald;
+    src:url('/fonts/Sungold/SunGold.ttf') format('truetype');
+}
+
 :root{
     --dark-green: #0E2621;
     --light-green:#4A6043;
@@ -34,7 +39,7 @@ body{
     background-color:var(--beige);
     padding: 0rem;
     margin: 0rem;
-
+    font-family: Sungold;
     font-size: var(--p);
     min-width:100vw
 }
@@ -43,7 +48,7 @@ body{
     justify-content: center; 
     font-size: var(--h4);
     color: var(--dark-green);
-
+    font-family: Sungold;
     font-weight: 900;
     text-decoration: none;
 }
@@ -129,6 +134,7 @@ em{
 .sungold{
     font-weight: 100;
     color: var(--dark-green);
+    font-family: Sungold;
 }
 strong{
     font-size: var(--h4);
@@ -140,6 +146,7 @@ strong{
 .title{
     text-decoration: underline;
     font-size: var(--h1);
+    font-family: Sungold;
     font-weight: 100;
     margin: 0rem;
     color: var(--gold);
