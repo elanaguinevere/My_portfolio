@@ -10,8 +10,4 @@ export default defineConfig({
     },
     integrations: [react()],
     adapter: netlify(),
-    external: [
-        '/fonts/Sungold/Sungold.ttf',
-        '/fonts/Oswald/Oswald.ttf',
-      ],
 });
