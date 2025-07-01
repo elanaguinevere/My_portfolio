@@ -51,13 +51,12 @@ body{
     font-weight: 900;
     text-decoration: none;
 }
-.header{
+header{
     background-color: var(--light-green);
     display: flex; 
-    justify-content: center;
-    align-items: space-between;
+    justify-content: space-between;
+    align-items: center;
     max-height: 10vh;
-    width:100vw ;
     z-index: +10;
 }
 .menu-item{
