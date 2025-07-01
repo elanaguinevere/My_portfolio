@@ -43,7 +43,7 @@ body{
     font-size: var(--p);
     min-width:100vw
 }
-.menu-item.active, .logo-title.active{
+.active{
     color: var(--beige);
 }
 .logo-title{
@@ -321,6 +321,11 @@ ul{
     margin: 0 1rem 0 1rem;
 }
 
+.paintings{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .painting{
     margin: 2rem;
 }
