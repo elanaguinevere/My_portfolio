@@ -206,3 +206,45 @@ strong{
 .timelineContainer:hover .fade-timeline{
     opacity: 1;
 }
+.project-title{
+    font-size: var(--h1);
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    color: var(--gold);
+}
+ul{
+    list-style-type:none;
+}
+.gallery{
+    padding-top:300px;
+}
+.galleryLi{
+    transition: 0.5s ease;
+    background-image: url('/images/framebtn.png');
+    background-repeat: no-repeat;
+    background-position: -30rem 0;
+    min-height: 268px;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 12rem;
+    padding-bottom:2.5rem;
+    margin-left: -10rem;
+    text-align: right;
+    color: var(--dark-green);
+    overflow: hidden;
+    font-size: var(--h25);
+    font-weight: 900;
+}
+.galleryLi:hover{
+    transition: 0.5s ease;
+    background-position: -10rem 0;
+    padding-left:32rem;
+    color: var(--dark-green);
+}
+.galleryA{
+    color: var(--gold);
+    text-decoration: none;
+}
