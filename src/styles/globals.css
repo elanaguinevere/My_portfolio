@@ -54,8 +54,8 @@ body{
 .header{
     background-color: var(--light-green);
     display: flex; 
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: space-between;
     max-height: 10vh;
     width:100vw ;
     z-index: +10;
@@ -100,4 +100,24 @@ main{
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
+}
+.intro-duction2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutme{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-family: Oswald;
+}
+.introduction{
+    color:var(--dark-green);
+    max-width: 50vw;
+    font-style: normal;
+}
+.picture{
+    max-height:700px ;
+    margin-top: -5rem;
 }
