@@ -297,3 +297,38 @@ footer{
     font-size: var(--h3);
     margin-left: 5rem;
 }
+
+
+.subtitle{
+    color: dark;
+    font-size: var(--h3);
+}
+.oval{
+    margin: 5rem 0 5rem 0;
+}
+.contactForm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    color: var(--dark-green);
+    font-size: var(--h4);
+}
+.burger{
+    margin: 0 1rem 0 1rem;
+}
+
+.painting{
+    margin: 2rem;
+}
+.anniversary{
+    max-height: 723.35px;
+}
+.willow{
+    margin: 5rem;
+}
+.art-detail{
+    display: flex;
+    justify-content: space-between;
+}
