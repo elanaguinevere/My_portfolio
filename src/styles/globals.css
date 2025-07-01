@@ -126,6 +126,7 @@ main{
     min-width: 30vw;
     color: var(--beige);
     margin-top:-4rem ;
+    margin-bottom:2rem;
 }
 em{
     font-weight: bold;
