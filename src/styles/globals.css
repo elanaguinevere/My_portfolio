@@ -170,8 +170,9 @@ strong{
     text-decoration: none;
     color: var(--gold);
     font-size: var(--h3);
-    padding: 3rem;
-    margin: -3rem;
+}
+.back-arrow{
+    margin-left:5rem;
 }
 .arrow:hover{
     position: relative;
