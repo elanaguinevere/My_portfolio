@@ -9,5 +9,9 @@ export default defineConfig({
         plugins: [tailwindcss()]
     },
     integrations: [react()],
-    adapter: netlify()
+    adapter: netlify(),
+    external: [
+        '/fonts/Sungold/Sungold.ttf',
+        '/fonts/Oswald/Oswald.ttf',
+      ],
 });

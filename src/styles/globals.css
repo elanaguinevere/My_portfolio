@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: Sungold;
-    src:url('../assets/Sungold/Sungold.ttf') format('truetype');
+    src:url('/fonts/Sungold/Sungold.ttf') format('truetype');
 }
 @font-face{
     font-family: Oswald;
-    src:url('../assets/Oswald/Oswald.ttf') format('truetype');
+    src:url('/fonts/Oswald/Oswald.ttf') format('truetype');
 }
 
 :root{
