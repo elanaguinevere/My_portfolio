@@ -41,6 +41,7 @@ body{
     margin: 0rem;
     font-size: var(--p);
     min-width:100vw
+    font-family:Sungold;
 }
 .active{
     color: var(--beige);
